@@ -5,5 +5,6 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "activeTab"]
+  "permissions": ["storage", "activeTab"],
+  "content_security_policy": "script-src 'self' https://use.fontawesome.com; object-src 'self'"
 }
