@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#innerContainer {
+  width: 100%;
+  height: 94%;
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#innerInnerContainer {
+  text-align: center;
+}
+#innerInnerContainerTime {
+  color: white;
+  font-size: 1050% !important;
+  letter-spacing: -5px;
+}
+#innerInnerContainerTitleDiv {
+  width: 70%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.185);
+  padding: 10px;
+  border-radius: 10px;
+}
+#innerInnerContainerTitle {
+  color: white;
+  font-size: 3em;
+  font-weight: 700;
+}
+.dropbtn {
+  color: white;
+  padding-left: 16px;
+  padding-top: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 34px;
+  margin: 10px;
+  background: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+  opacity: 0.75;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 100%;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.prayer_time_btn {
+  color: white;
+  padding-left: 16px;
+  padding-top: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 34px;
+  margin: 10px;
+  background: none;
+}
+
+.prayer_time {
+  position: relative;
+  display: inline; 
+  float: right;
+}
+
+.prayer_time_content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.prayer_time:hover .prayer_time_content {
+  display: block;
+}

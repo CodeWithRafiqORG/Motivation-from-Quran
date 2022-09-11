@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Motivation From Allah",
+  "version": "2.2",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "activeTab"]
+}
