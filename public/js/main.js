@@ -26,7 +26,7 @@ let startTime = () => {
 };
 
 let addTitle = () => {
-  fetch("data2.json")
+  fetch("data.active.json")
     .then((response) => response.json())
     .then((data) => {
       document.getElementById("innerInnerContainerTitle").innerHTML =
